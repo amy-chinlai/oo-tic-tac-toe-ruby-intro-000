@@ -91,7 +91,7 @@ end
 end
 
 def winner
-  winning_combination = won?
+  winning_combination = won?(@board)
   if winning_combination
     board[winning_combination[0]]
   else
