@@ -14,13 +14,7 @@ class TicTacToe
   [2, 5, 8]
 ]
 
-	def board=(board)
-		@board = board
-	end
 
-def board
-	@board
-end
 
 
 
