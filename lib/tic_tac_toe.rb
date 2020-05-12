@@ -90,4 +90,13 @@ end
   full? || won? || draw?
 end
 
+def winner
+  winning_combination = won?
+  if winning_combination
+    board[winning_combination[0]]
+  else
+    nil
+  end
+end
+
 end
