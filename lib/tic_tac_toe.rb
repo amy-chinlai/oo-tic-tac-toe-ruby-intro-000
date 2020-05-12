@@ -99,4 +99,20 @@ def winner
   end
 end
 
+	def play
+		until over?
+			turn
+		end
+		if won?
+			if value = "X"
+				puts "Congratulations X!"
+		end
+		if value = "O"
+				puts "Congratulations O!"
+		end
+		else draw?
+			puts "Cat's Game!"
+		end
+	end
+
 end
