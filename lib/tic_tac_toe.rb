@@ -82,4 +82,8 @@ end
   	(@board).none?{|i| i == " "}
 	end
 
+	def draw?
+  	full?(@board) && !won?(@board)
+  end
+
 end
