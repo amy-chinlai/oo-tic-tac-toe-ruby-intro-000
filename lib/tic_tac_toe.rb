@@ -58,14 +58,14 @@ end
   end
 end
 
-def turn_count
-  turn=0
-  @board.each do |token|
-    if(token=="X" || token=="O")
-      turn+=1
-end
-end
-turn
-end
+	def turn_count
+  	turn=0
+  	@board.each do |token|
+    	if(token=="X" || token=="O")
+      	turn+=1
+			end
+		end
+		turn
+	end
 
 end
